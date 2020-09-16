@@ -1,5 +1,6 @@
 {% extends 'polls/layout.html' %}
 {% block body %}
+<h1>Details page</h1>
 <h1>{{question.question_text}}</h1>
 {% if error_message %}
     <p><strong>{{ error_message }}</strong></p>
